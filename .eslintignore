@@ -1,0 +1,10 @@
+build/*
+public/*
+**/node_modules/*
+*.config.js
+**.next/*
+/tsconfig.json
+/.eslintrc.js
+/.prettierrc.js
+$*.ts
+env.js
