@@ -13,13 +13,13 @@ export const exampleRouter = router({
       })
     )
     .mutation(async ({ input }) => {
-      return await prisma.example.create({
+      return prisma.example.create({
         data: {
           name: input.name,
         },
       });
     }),
   findAllExample: publicProcedure.query(async () => {
-    return await prisma.example.findMany();
+    return prisma.example.findMany();
   }),
 });
