@@ -9,5 +9,9 @@ declare namespace NodeJS {
     readonly NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET: string;
     readonly NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID: string;
     readonly NEXT_PUBLIC_FIREBASE_APP_ID: string;
+    readonly NEXT_PUBLIC_AUTH_REGION: string;
+    readonly NEXT_PUBLIC_AUTH_USER_POOL_ID: string;
+    readonly NEXT_PUBLIC_AUTH_USER_POOL_WEB_CLIENT_ID: string;
+    readonly NEXT_PUBLIC_AUTH_COOKIE_STORAGE_DOMAIN: string;
   }
 }

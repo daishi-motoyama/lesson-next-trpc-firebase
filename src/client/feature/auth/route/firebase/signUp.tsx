@@ -7,7 +7,7 @@ export const SignUp = () => {
       <Header height={30}>デモページ</Header>
       <Stack mt="md">
         <Text size="xl" weight="bold">
-          サインアップページ
+          Firebase Authenticationを使用したサインアップページ
         </Text>
         <SignUpForm />
       </Stack>
